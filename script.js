@@ -1,3 +1,6 @@
 //your JS code here. If required.
-
-consol.log(arguments.callee.name);
+function na() {
+	consol.log(arguments.callee.name);
+}
+//consol.log(arguments.callee.name);
+na();
